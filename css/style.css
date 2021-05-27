@@ -1,0 +1,279 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0B1D26;
+}
+
+.f1 {
+    background-image: url('../img/fondo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.contenedor {
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titulo-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 39px;
+}
+
+.menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+}
+
+.menu-li {
+    list-style: none;
+    margin-right: 48px;
+}
+
+.menu-li:last-of-type {
+    margin-right: 0;
+}
+
+.menu-a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0B1D26;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    align-items: center;
+}
+
+.menu-rs {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.menu-rs-li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.menu-rs-li:last-of-type {
+    margin-bottom: 0;
+}
+
+.menu-rs-a {
+    color: #0B1D26;
+}
+
+.principal {
+    padding-top: 104px;
+    display: flex;
+    padding-bottom: 1000px;
+}
+
+.redes-sociales {
+    width: 30%;
+}
+
+.texto-inicial {
+    width: 40%;
+}
+
+.bloque {
+    width: 30%;
+}
+
+.parrafo-inicial {
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.linea {
+    width: 72px;
+    height: 2px;
+    background-color: #FDD130;
+    margin-bottom: 32px;
+}
+
+.submenu {
+    text-align: end;
+    border-right-style: solid;
+    border-right-color: #0B1D26;
+    border-right-width: 3px;
+    padding-right: 24px;
+    padding-top: 10px;
+}
+
+.submenu-p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.submenu-p:last-of-type {
+    margin-bottom: 0;
+}
+
+.f2 {
+    background-image: url('../img/fondo2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    margin-top: -500px;
+}
+
+.seccion-info {
+    padding-top: 240px;
+    display: flex;
+}
+
+.seccion-info__contenido {
+    width: 60%;
+    padding: 50px;
+    padding: 85px 50px 50px 85px;
+    position: relative;
+}
+
+.seccion-info__image {
+    width: 40%;
+}
+
+.figura {
+    height: 400px;
+    width: 314px;
+}
+
+.imagen {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parrafo {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.boton {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FDD130;
+    text-decoration: none;
+}
+
+.numero {
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 200px;
+    color: #FFFFFF;
+    opacity: 0.1;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer {
+    margin-top: 200px;
+    padding-bottom: 120px;
+}
+
+.columnas {
+    display: flex;
+}
+
+.columna-1 {
+    width: 50%;
+}
+
+.columna-2 {
+    width: 25%;
+}
+
+.columna-3 {
+    width: 25%;
+}
+
+.logo {
+    height: 40px;
+}
+
+.copy {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 24px;
+    margin-bottom: 304px;
+}
+
+.titulo-c {
+    color: #FDD130;
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.ul-c {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.li-c {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.li-c:last-of-type {
+    margin-bottom: 0;
+}
+
+.a-c {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
